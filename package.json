@@ -1,0 +1,15 @@
+{
+  "name": "jorolfo.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/stnight/jorolfo.github.io.git",
+  "license": "MIT",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-pug-plugin": "^2.0.0",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
