@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(name="description", content="John Eric's resume and portfolio. A freelance programmer for hire")
+        meta(name="keywords", content="John Eric Orolfo, freelance programmer, web developer, application developer, game developer, back-end developer")
+        title John Eric's Awesome Resume
+    body
+        include includes/header.pug
+        .container
+            include includes/professional_summary
+            .columns
+                .column.is-8
+                    include includes/work_history
+                .column
+                    include includes/programming_language
+                    include includes/frameworks
+                    include includes/tools_and_libraries
+            include includes/educational_attainment
+            include includes/hobbies
